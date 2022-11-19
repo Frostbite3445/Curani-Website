@@ -36,6 +36,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="FAQs.html">FAQs</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Quote.html">Quote</a>
+                    </li>
             </div>
         </nav>
 
@@ -43,85 +46,6 @@
         <div id="Home" class="tabcontent">
             <p>Home content goes here</p>
         </div>
-
-        <!-- Quote Content -->
-        <div id="Quote" class="container">
-            <form class="row needs-validation d-flex g-2" action="https://formsubmit.co/jacquesdean42@gmail.com" method="POST" novalidate>
-                <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
-                    <input id="FirstName" type="text" name="First name" class="form-control" placeholder="FirstName" value="" required/>
-                    <label for="FirstName">First Name</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid First Name.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
-                    <input id="Surname" type="text" name="Surname" class="form-control" placeholder="Surname" value="" required/>
-                    <label for="Surname">Surname</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid Surname.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-8 mb-3 none-Selectable">
-                    <input id="EmailAddress" type="email" name="Email Address" class="form-control" placeholder="EmailAddress" value="" required/>
-                    <label for="EmailAddress">Email Address</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid Email Address.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-4 mb-3 none-Selectable">
-                    <input id="PhoneNumber" type="tel" name="Phone Number" class="form-control" placeholder="PhoneNumber" value="" pattern="^(\+[0-9]{1,2} [(]?[0-9]{1,2}[)]?|[(]?[0-9]{3}[)]?)[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}" required/>
-                    <label for="PhoneNumber">Phone Number</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid Phone Number.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
-                    <textarea id="Comments" type="text" name="Comment" class="form-control" placeholder="Comments" value="" style="height: 100px;" required></textarea>
-                    <label for="Comments">Comments</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Comment on what your needs are.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
-                    <button class="btn btn-primary" type="submit">Submit form</button>
-                </div> 
-            </form>
-        </div>
-
-        <script>(function () {
-            'use strict'
-          
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.querySelectorAll('.needs-validation')
-          
-            // Loop over them and prevent submission
-            Array.prototype.slice.call(forms)
-              .forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                  if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                  }
-          
-                  form.classList.add('was-validated')
-                }, false)
-              })
-          })()</script>
 
         <!-- About us Content -->
         <div id="About us" class="tabcontent">
