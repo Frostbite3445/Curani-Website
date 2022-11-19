@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Curani Home</title>
+        <link rel="icon" href="Curani icon.png" type="image/icon type">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="Items.css" rel="stylesheet">
+        <link href="navbar-toggler.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Curani Logo -->
+        <div class="d-flex justify-content-center none-Selectable">
+            <img class="p-2" src="Curani Logo.jpg" alt="Curani" width="100%" style="max-width: 300px; -moz-window-dragging: none; -webkit-user-drag: none;">    
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #21848a;">
+            <div class="container">
+            <a class="navbar-brand navbar-heading none-Selectable" href="#">Menu</a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto none-Selectable">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQs.html">FAQs</a>
+                    </li>
+            </div>
+        </nav>
+
+        <!-- HOme Content -->
+        <div id="Home" class="tabcontent">
+            <p>Home content goes here</p>
+        </div>
+
+        <!-- Quote Content -->
+        <div id="Quote" class="container">
+            <form class="row needs-validation d-flex g-2" action="https://formsubmit.co/jacquesdean42@gmail.com" method="POST" novalidate>
+                <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
+                    <input id="FirstName" type="text" name="First name" class="form-control" placeholder="FirstName" value="" required/>
+                    <label for="FirstName">First Name</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please Insert a valid First Name.
+                    </div>
+                </div>
+                <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
+                    <input id="Surname" type="text" name="Surname" class="form-control" placeholder="Surname" value="" required/>
+                    <label for="Surname">Surname</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please Insert a valid Surname.
+                    </div>
+                </div>
+                <div class="form-floating my-2 col-md-8 mb-3 none-Selectable">
+                    <input id="EmailAddress" type="email" name="Email Address" class="form-control" placeholder="EmailAddress" value="" required/>
+                    <label for="EmailAddress">Email Address</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please Insert a valid Email Address.
+                    </div>
+                </div>
+                <div class="form-floating my-2 col-md-4 mb-3 none-Selectable">
+                    <input id="PhoneNumber" type="tel" name="Phone Number" class="form-control" placeholder="PhoneNumber" value="" pattern="^(\+[0-9]{1,2} [(]?[0-9]{1,2}[)]?|[(]?[0-9]{3}[)]?)[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}" required/>
+                    <label for="PhoneNumber">Phone Number</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please Insert a valid Phone Number.
+                    </div>
+                </div>
+                <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
+                    <textarea id="Comments" type="text" name="Comment" class="form-control" placeholder="Comments" value="" style="height: 100px;" required></textarea>
+                    <label for="Comments">Comments</label>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please Comment on what your needs are.
+                    </div>
+                </div>
+                <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div> 
+            </form>
+        </div>
+
+        <script>(function () {
+            'use strict'
+          
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+          
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+              .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                  if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                  }
+          
+                  form.classList.add('was-validated')
+                }, false)
+              })
+          })()</script>
+
+        <!-- About us Content -->
+        <div id="About us" class="tabcontent">
+            <p>About us content goes here</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="contaner footer">
+            <div class="row footerp">
+                <!-- Address and Open times -->
+                <div class="col-sm-6">
+                    <h4>Address:</h4>
+                    <p>
+                        5 Inverness Street <br />
+                        Dalview <br />
+                        Brakpan <br />
+                        1541 <br />
+                    </p>
+                    <label>Open: Mon-Fri from 8:00-16:00</label>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="col-sm-6">
+                    <h4>Contacts:</h4>
+                    <p>
+                        Email: <a style="color: aquamarine" href="mailto:curani@mweb.co.za">Curani@mweb.co.za</a><br />
+                        Cell: +27-82-777-3251<br />
+                        Tel: +27-11-740-7566<br />
+                    </p>
+                </div>
+            </div>
+
+            <!-- CopyRight At the Bottom -->
+            <div style="text-align: center">
+                <label class="none-Selectable">
+                    CopyRight &copy;
+                    <script>document.write(new Date().getFullYear())</script>, Curani Occupational Health Pty Ltd
+                </label>
+            </div>
+        </div>
+
+        <!-- Bootstrap Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>

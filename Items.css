@@ -1,0 +1,56 @@
+.edit {
+    border: 1px solid #ccc;
+    padding: 2px 6px;
+    width: 25%;
+    min-width: 305px;
+}
+
+.edit:focus {
+    outline: none;
+}
+
+.footer {
+    background-color: #be0201;
+    width: 100%;
+    color: white;
+}
+
+.footerp {
+    padding: 6px 12px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    margin: 12px 12px;
+    border: 1px solid #ccc;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tabcontent-headings {
+    padding: 6px 12px;
+    background-color: #be0201;
+    margin-bottom: 0px;
+    border: 1px solid darkslategray;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: white;
+}
+
+.tabcontent-content {
+    padding: 6px 18px;
+    background-color: #eef7f7;
+    margin-bottom: 0px;  
+    border: 1px solid darkslategray; 
+}
+
+.none-Selectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
