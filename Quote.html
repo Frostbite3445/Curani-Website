@@ -11,10 +11,12 @@
         <link href="navbar-toggler.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
-    <body>
+    <body onload="DarkModeCheck()" class="">
+        <script src="DarkMode.js"></script>
+
         <!-- Curani Logo -->
         <div class="d-flex justify-content-center none-Selectable">
-            <img class="p-2" src="Curani Logo.jpg" alt="Curani" width="100%" style="max-width: 300px; -moz-window-dragging: none; -webkit-user-drag: none;">    
+            <img class="p-2" src="CURANI LOGO.PNG" alt="Curani" width="100%" style="max-width: 300px; -moz-window-dragging: none; -webkit-user-drag: none;">    
         </div>
 
         <!-- Navbar -->
@@ -32,7 +34,10 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Services.html">Services</a>
+                        <a class="nav-link" href="On-Site Clincs.html">On-Site Clincs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Mobile Medicals.html">Mobile Medicals</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="FAQs.html">FAQs</a>
@@ -147,6 +152,7 @@
                         5 Inverness Street <br />
                         Dalview <br />
                         Brakpan <br />
+                        Gauteng <br />
                         1541 <br />
                     </p>
                 </div>
@@ -179,6 +185,10 @@
                         Cell: +27-83-460-8634<br />
                     </p>
                     <label>Open: Mon-Fri from 8:00-16:00</label>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onchange="DarkModeToggle()">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Dark mode</label>
+                      </div>
                 </div>
             </div>
 

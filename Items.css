@@ -59,3 +59,20 @@
   'GRAD' 0,
   'opsz' 48
 }
+
+body {
+    background-color: white;
+}
+  
+.dark-mode {
+    background-color: #1d1d1d;
+}
+
+.dark-mode-content {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.dark-mode-input {
+    background-color: #575757;
+}
