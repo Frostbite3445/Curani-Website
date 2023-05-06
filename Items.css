@@ -33,17 +33,15 @@
     padding: 6px 12px;
     background-color: #be0201;
     margin-bottom: 0px;
-    border: 1px solid darkslategray;
-    border-bottom: 0px;
-    border-top: 0px;
     color: white;
+    border-radius: 10px;
 }
 
 .tabcontent-content {
     padding: 6px 18px;
-    background-color: #eef7f7;
+    background-color: #ececec;
     margin-bottom: 0px;  
-    border: 1px solid darkslategray; 
+    border-radius: 10px; 
 }
 
 .none-Selectable {
