@@ -46,72 +46,73 @@
         <!-- Quote Content -->
         <div id="Quote Heading" class="tabcontent">
             <h3 class="tabcontent-headings">Quote Info:</h3>
+            <div id="Quote" class="container tabcontent-content" style="padding-top: 14px; margin: 0px;">
+                <form class="row needs-validation d-flex g-2" action="https://formsubmit.co/jacquesdean42@gmail.com" style="margin-top: 0px;" method="POST" novalidate>
+                    <!-- Honey pot -->
+                    <input type="text" name="_honey" style="display:none">
+                    <!-- Disable captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- Subject -->
+                    <input type="hidden" name="_subject" value="Quote request!">
+                    <!-- Next Html Page -->
+                    <input type="hidden" name="_next" value="https://frostbite3445.github.io/Curani-Website/ThankYou.html">
+                    <div class="form-floating my-2 col-md-6 mb-3 none-Selectable" style="margin-top: 16px;">
+                        <input id="FirstName" type="text" name="First name" class="form-control" placeholder="FirstName" value="" required/>
+                        <label for="FirstName">First Name</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Insert a valid First Name.
+                        </div>
+                    </div>
+                    <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
+                        <input id="Surname" type="text" name="Surname" class="form-control" placeholder="Surname" value="" required/>
+                        <label for="Surname">Surname</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Insert a valid Surname.
+                        </div>
+                    </div>
+                    <div class="form-floating my-2 col-md-8 mb-3 none-Selectable">
+                        <input id="EmailAddress" type="email" name="Email Address" class="form-control" placeholder="EmailAddress" value="" required/>
+                        <label for="EmailAddress">Email Address</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Insert a valid Email Address.
+                        </div>
+                    </div>
+                    <div class="form-floating my-2 col-md-4 mb-3 none-Selectable">
+                        <input id="PhoneNumber" type="tel" name="Phone Number" class="form-control" placeholder="PhoneNumber" value="" pattern="^(\+[0-9]{1,2} [(]?[0-9]{1,2}[)]?|[(]?[0-9]{3}[)]?)[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}" required/>
+                        <label for="PhoneNumber">Phone Number</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Insert a valid Phone Number.
+                        </div>
+                    </div>
+                    <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
+                        <textarea id="Comments" type="text" name="Comment" class="form-control" placeholder="Comments" value="" style="height: 100px;" required></textarea>
+                        <label for="Comments">Comments</label>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Comment on what your needs are.
+                        </div>
+                    </div>
+                    <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
+                        <button class="btn btn-primary d-flex ps-2" type="submit" name="Send" ><object data="Send.svg" width="24" height="24" class="allign-self-center me-2"></object>Send</button>
+                    </div> 
+                </form>
+            </div>
         </div>
-        <div id="Quote" class="container tabcontent">
-            <form class="row needs-validation d-flex g-2" action="https://formsubmit.co/jacquesdean42@gmail.com" method="POST" novalidate>
-                <!-- Honey pot -->
-                <input type="text" name="_honey" style="display:none">
-                <!-- Disable captcha -->
-                <input type="hidden" name="_captcha" value="false">
-                <!-- Subject -->
-                <input type="hidden" name="_subject" value="Quote request!">
-                <!-- Next Html Page -->
-                <input type="hidden" name="_next" value="https://frostbite3445.github.io/Curani-Website/ThankYou.html">
-                <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
-                    <input id="FirstName" type="text" name="First name" class="form-control" placeholder="FirstName" value="" required/>
-                    <label for="FirstName">First Name</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid First Name.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-6 mb-3 none-Selectable">
-                    <input id="Surname" type="text" name="Surname" class="form-control" placeholder="Surname" value="" required/>
-                    <label for="Surname">Surname</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid Surname.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-8 mb-3 none-Selectable">
-                    <input id="EmailAddress" type="email" name="Email Address" class="form-control" placeholder="EmailAddress" value="" required/>
-                    <label for="EmailAddress">Email Address</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid Email Address.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-4 mb-3 none-Selectable">
-                    <input id="PhoneNumber" type="tel" name="Phone Number" class="form-control" placeholder="PhoneNumber" value="" pattern="^(\+[0-9]{1,2} [(]?[0-9]{1,2}[)]?|[(]?[0-9]{3}[)]?)[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}" required/>
-                    <label for="PhoneNumber">Phone Number</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Insert a valid Phone Number.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
-                    <textarea id="Comments" type="text" name="Comment" class="form-control" placeholder="Comments" value="" style="height: 100px;" required></textarea>
-                    <label for="Comments">Comments</label>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <div class="invalid-feedback">
-                        Please Comment on what your needs are.
-                    </div>
-                </div>
-                <div class="form-floating my-2 col-md-12 mb-3 none-Selectable">
-                    <button class="btn btn-primary d-flex ps-2" type="submit" name="Send" ><object data="Send.svg" width="24" height="24" class="allign-self-center me-2"></object>Send</button>
-                </div> 
-            </form>
-        </div>
+        
 
         <script>(function () {
             'use strict'
