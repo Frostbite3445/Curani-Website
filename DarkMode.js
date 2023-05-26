@@ -12,7 +12,7 @@ function DarkModeToggle() {
         }
         if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
             for (let j = 0; j < darkInput.length; j++) {
-                darkInput[j].classList.add("dark-mode-input");
+                darkInput[j].style.background = "#575757";
             }
         }
         mode = '0';
@@ -25,7 +25,7 @@ function DarkModeToggle() {
         }
         if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
             for (let j = 0; j < darkInput.length; j++) {
-                darkInput[j].classList.remove("dark-mode-input");
+                darkInput[j].style.background = "";
             }
         }
         mode = '1';
@@ -48,7 +48,7 @@ function DarkModeCheck() {
         }
         if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
             for (let j = 0; j < darkInput.length; j++) {
-                darkInput[j].classList.add("dark-mode-input");
+                darkInput[j].style.background = "#575757";
             }
         }
         darkToggle.setAttribute("checked", "");
@@ -61,7 +61,7 @@ function DarkModeCheck() {
         }
         if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
             for (let j = 0; j < darkInput.length; j++) {
-                darkInput[j].classList.remove("dark-mode-input");
+                darkInput[j].style.background = "";
             }
         }
         darkToggle.removeAttribute("checked");
