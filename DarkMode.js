@@ -1,7 +1,7 @@
 function DarkModeToggle() {
     var darkBody = document.body;
     var darkContent = document.getElementsByClassName("tabcontent-content");
-    if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
+    if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
         var darkInput = document.getElementsByClassName("form-control");
     }
     var mode = localStorage.getItem("someVarKey");
@@ -10,7 +10,7 @@ function DarkModeToggle() {
         for (let i = 0; i < darkContent.length; i++){
             darkContent[i].classList.add("dark-mode-content");
         }
-        if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
+        if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "#575757";
             }
@@ -23,7 +23,7 @@ function DarkModeToggle() {
         for (let i = 0; i < darkContent.length; i++){
             darkContent[i].classList.remove("dark-mode-content");
         }
-        if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
+        if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "";
             }
@@ -37,7 +37,7 @@ function DarkModeCheck() {
     var darkBody = document.body;
     const darkToggle = document.getElementsByClassName("form-check-input")[0];
     var darkContent = document.getElementsByClassName("tabcontent-content");
-    if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
+    if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
         var darkInput = document.getElementsByClassName("form-control");
     }
     var mode = localStorage.getItem("someVarKey");
@@ -46,11 +46,12 @@ function DarkModeCheck() {
         for (let i = 0; i < darkContent.length; i++){
             darkContent[i].classList.add("dark-mode-content");
         }
-        if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
+        if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "#575757";
             }
         }
+        mode = '0';
         darkToggle.setAttribute("checked", "");
         localStorage.setItem("someVarKey", mode);
     }
@@ -59,11 +60,12 @@ function DarkModeCheck() {
         for (let i = 0; i < darkContent.length; i++){
             darkContent[i].classList.remove("dark-mode-content");
         }
-        if (document.URL.indexOf('Quote.html') == document.URL.length - 10) {
+        if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "";
             }
         }
+        mode = '1';
         darkToggle.removeAttribute("checked");
         localStorage.setItem("someVarKey", mode);
     }
