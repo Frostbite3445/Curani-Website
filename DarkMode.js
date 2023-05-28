@@ -13,6 +13,7 @@ function DarkModeToggle() {
         if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "#575757";
+                darkInput[j].style.color = "white";
             }
         }
         mode = '0';
@@ -26,6 +27,7 @@ function DarkModeToggle() {
         if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "";
+                darkInput[j].style.color = "";
             }
         }
         mode = '1';
@@ -49,6 +51,7 @@ function DarkModeCheck() {
         if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "#575757";
+                darkInput[j].style.color = "white";
             }
         }
         mode = '0';
@@ -63,6 +66,7 @@ function DarkModeCheck() {
         if (document.URL.indexOf('Enquiry.html') == document.URL.length - 12) {
             for (let j = 0; j < darkInput.length; j++) {
                 darkInput[j].style.background = "";
+                darkInput[j].style.color = "";
             }
         }
         mode = '1';
